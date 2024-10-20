@@ -26,7 +26,7 @@ class WelcomeDialog(QDialog):
 
         # Create a media player
         self.media_player = QMediaPlayer(self)
-        video_path = "/path/to/your/video.mp4"  # Update this with your video path
+        video_path = "/Users/christinebagazin/Downloads/124-folder/welcome-box-vid.mp4"  # Update this with your video path
         self.media_player.setMedia(QMediaContent(video_path))
         self.media_player.setVideoOutput(self.video_widget)
         self.media_player.play()
